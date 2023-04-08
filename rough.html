@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   .box{
+    border: 2px solid black;
+    width: 400px;
+    position: relative;
+    margin-left: 500px;
+    overflow: hidden;
+   }
+   img{
+    width: 100%;
+    height: auto;
+   }
+   .content{
+    color: #fff;
+    background-color: rgba(255, 150, 0, 0.6);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 1.5s;
+  
+   }
+   .box:hover .content{
+     top: 0px;
+   
+   }
+   
+  </style>
+</head>
+<body>
+     <div class="box">
+      <img src="./1.jpg" alt="food">
+      <div class="content">
+        <h2>Restaurant</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugiat sequi praesentium consequuntur tempora magnam accusamus vel. Quidem nulla, aperiam nobis facilis voluptates numquam reiciendis animi, voluptas vero quis autem.</p>
+      </div>
+     </div>
+</body>
+</html>

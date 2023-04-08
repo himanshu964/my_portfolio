@@ -1,0 +1,138 @@
+/*my-intro*/
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300&family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Heebo:wght@100;300&family=Roboto+Condensed:wght@300;400&family=Sono&family=Source+Code+Pro&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Golos+Text&family=Heebo:wght@100;300&family=Playfair+Display&family=Roboto+Condensed:wght@300;400&family=Sono&family=Source+Code+Pro&family=Tilt+Prism&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#1f242d;
+    color: #fff;
+}
+.container
+{
+    display: flex;
+}
+.side_bar{
+    position: absolute;
+    /* background-color:rgba(165, 133, 133, 0.205); */
+    background-color: #182641;
+    /* width: 15vw; */
+    height: 100vh;
+    /* font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Golos Text', sans-serif;
+    font-weight: bold;
+    transition: transform 0.3s ease-in;
+    }
+.side_bar nav
+{
+    padding: 40px;
+}
+.side_bar nav li
+{
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 20px 0px;
+}
+.side_bar nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.side_bar nav li a:hover{
+    color: #0ef;
+}
+
+/* styling of main */
+
+.main
+{
+    /* background-color: #f0b4ff; */
+    /* position: absolute; */
+    width: 95vw;
+    /* height: 100vh; */
+}
+.about{
+    margin-top: 45px;
+    margin-left: 33px;
+    font-family: 'Source Code Pro', monospace;
+}
+.about h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #0ef;
+}
+
+.about p{
+    margin-top: 10px;
+    font-family: 'Golos Text', sans-serif;
+    color: pink;
+}
+.html{
+    width: 300px;
+    height: 6px;
+    background-color: rgba(165, 133, 133, 0.205);
+    border: 1px solid rgba(165, 133, 133, 0.205);
+    border-radius: 22px;
+}
+.html .out{
+    height: 6px;
+    width: 270px;
+    background-color: blue;
+}
+.html .out2{
+    height: 6px;
+    width: 240px;
+    background-color: rgb(175, 60, 60);
+}
+.html .out3{
+    height: 6px;
+    width: 190px;
+    background-color: red;
+}
+.html .out4{
+    height: 6px;
+    width: 180px;
+    background-color: rgb(255, 0, 212);
+}
+.html .out5{
+    height: 6px;
+    width: 250px;
+    background-color: rgb(0, 255, 34);
+}
+
+.hii{
+    margin-top: 20px;
+    font-family: 'Source Code Pro', monospace;
+    padding-bottom: 20px;
+    color: #0ef;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 33px;
+}
+.skill{
+    margin-left: 33px;
+}
+.skill p{
+    margin-top: 10px;
+    
+}
+.hamberg{
+    position: absolute;
+    left: -3px;
+   
+}
+.hum{
+    cursor: pointer;
+}
+.cross
+{
+ margin-left: 139px;
+ cursor: pointer;
+}
+
+.side_barGO
+  {
+    transform: translate(-187px,0);
+   }
