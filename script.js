@@ -1,4 +1,3 @@
-console.log("himanshu jha is very handsome and cool guy");
 document.querySelector('.cross').style.display = 'none';
 document.querySelector('.hamberg').addEventListener("click",()=>{
     document.querySelector('.side_bar').classList.toggle('side_barGO');
@@ -12,7 +11,5 @@ document.querySelector('.hamberg').addEventListener("click",()=>{
         setTimeout(()=>{document.querySelector('.cross').style.display= 'inline'},350);
         document.querySelector('.hum').style.display= 'none'
 
-    }
-
-    
+    }  
 })
